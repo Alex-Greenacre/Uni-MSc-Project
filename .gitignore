@@ -1,0 +1,7 @@
+/Alex Greenacre KF7029 Dissertation/Data
+/Alex Greenacre KF7029 Dissertation/__pychache__
+/Alex Greenacre KF7029 Dissertation.zip
+__pychache__/
+*.pyc
+*.h5
+.DS_Store
