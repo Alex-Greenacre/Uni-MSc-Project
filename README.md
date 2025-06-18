@@ -1,12 +1,12 @@
 # Alex Greenacre KF7029 - Dissertation 
-This project covers the research that I carried out as part of my masters dissertaion during my Msc Advanced computer science course.
+This project covers the research that I carried out as part of my masters dissertation during my Msc Advanced computer science course.
 <br>
-The topic of the dissertation covers the radar based localisaiton of humans using through wall radar and image transformers, using a dataset created by Schroth,et al(2023) models CNN,ResNet30 and a image transformer novel to the field were trained and compared against to evaluate the image transformers ability in this field     
+The topic of the dissertation covers the radar based localization of humans using through wall radar and image transformers, using a dataset created by Schroth,et al(2023) models CNN,ResNet30 and a image transformer novel to the field were trained and compared against to evaluate the image transformers ability in this field.     
 <br>
 This project contains:
 <ul>
 <li>Project code</li>
-<li>Associated dissertaion disscusing resutls</li>
+<li>Associated dissertation discussing results</li>
 </ul>
 
 ## References 
@@ -28,7 +28,7 @@ Due to github repo size weights have been removed, to retrain the models run the
 All tests are ran from the <b>Scenarios</b> folder to run a test use the following code, all tests output either to command line or as charts in the <b>Plots</b> folder  
 Base Command:<br>
 <code>
-python3 -m Scenarios.Fodler_name.File_name 
+python3 -m Scenarios.Folder_name.File_name 
 </code>
 
 
@@ -67,7 +67,7 @@ models include CNN,ResNet,ViT with the lstm_cnn model used in a failed ECG test
 
 Custom layers are also stored in this folder 
 
-As well as the models the .h5 weight files are stored in this folder to allow for each model to be loaded for reliability in colecting results and without having to re train it for every scenario
+As well as the models the .h5 weight files are stored in this folder to allow for each model to be loaded for reliability in collecting results and without having to re train it for every scenario
 #### Plots 
 Contains the output plots for each scenario, saves the plots into the Test_Result folder  
 #### Scenarios 
@@ -77,7 +77,7 @@ Stores the files used to run the Experiments and training of the models
 Any output which has not been displayed on the command line will be displayed here 
 
 #### Utils 
-Stores files essentail to model and tests<br> 
+Stores files essential to model and tests<br> 
 includes loading of data, and what each file represents. Also contains the custom loss function used in the models evaluation  
 
 
